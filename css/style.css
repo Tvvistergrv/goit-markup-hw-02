@@ -24,9 +24,7 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
-
-      
+    letter-spacing: 0.03em;    
 }
 
 /* nav */
@@ -35,18 +33,18 @@ body {
     background-color: var(--primary-white-color);
 }
 
-.nav-logo {
+.link-logo {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    text-decoration: none;
 }
 
-.nav-logo span {
+.link-logo span {
     color: #000;
 }
-
 
 .nav-links .list {
     color: var(--title-text-color);
@@ -77,7 +75,6 @@ body {
     color: var(--accent-color);
 }
 /* hero */
-
 .hero {
     background-color: var(--background-color-darkfone);
 }
@@ -98,9 +95,8 @@ body {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
-    font-family: inherit;
     cursor: pointer;
-
+    font-family: Roboto, sans-serif;
 }
 
 ul {
@@ -113,7 +109,6 @@ ul {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.4;
-
 }
 
 .message {
@@ -141,9 +136,9 @@ ul {
 }
 
 .proff {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
 }
 
 /* footer */
@@ -152,16 +147,10 @@ ul {
     background-color: var(--background-color-darkfone);
 }
 
-.footer-logo {
-    color: var(--primary-white-color);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-}
 
-.footer-logo span {
-    color: var(--accent-color);
+.link-logo .logo-white {
+    color: var(--primary-white-color);
+    
 }
 
 .footer-address {
@@ -169,12 +158,20 @@ ul {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    text-decoration: none;
 }
 .footer-contacts {
     color: var(--transparent-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style:normal;
+    
 }
 
 /* Portfolio */
@@ -186,6 +183,8 @@ ul {
     font-size: 16px;
     line-height: 1.6; 
     cursor: pointer;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .filter .click:hover {
